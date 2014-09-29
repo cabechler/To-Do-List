@@ -58,10 +58,9 @@ hr {
 }
 
 .checkbox {
-	background: url();
+	background: url(images/checkbox.png);
 	height: 20px;
 	width: 10px;
-
 }
 
 .items {
@@ -72,5 +71,6 @@ hr {
 img.delete {
 	width: 20px;
 	height: 20px;
-	margin-top: 7px;
+	border-top: 20px;
 }
+
