@@ -1,0 +1,76 @@
+body {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 18px;
+}
+
+#title {
+	max-width: 60%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input {
+	width: 300px;
+	height: 25px;
+	border-radius: 5px;
+	border: 2px solid #ff9842;
+	text-align: center;
+	margin-right: 0 auto;
+	font-size: 16px;
+	margin-bottom: 20px;
+	box-shadow: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+div#fieldset {
+	text-align: center;
+}
+
+button {
+	background-color: #289999;
+	color: #fff;
+	border: 1px solid #fff;
+	width: 25px;
+	height: 25px;
+	font-size: 18px;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	width: 27px;
+	height: 27px;
+}
+
+hr {
+	max-width: 70%;
+	position: relative;
+}
+
+.checkbox {
+	background: url();
+	height: 20px;
+	width: 10px;
+
+}
+
+.items {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+img.delete {
+	width: 20px;
+	height: 20px;
+	margin-top: 7px;
+}
