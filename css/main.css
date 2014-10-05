@@ -3,8 +3,16 @@ body {
 	font-size: 18px;
 }
 
+p {
+	color: #323232;
+	font-size: 16px;
+	font-style: italic;
+	padding-bottom: 20px;
+	text-align: right;
+}
+
 #title {
-	max-width: 60%;
+	max-width: 40%;
 	height: auto;
 	margin: 0 auto;
 	display: block;
@@ -29,15 +37,68 @@ input:focus {
 	border: solid 2px #cc7934;
 }
 
-button:focus {
-	outline: none;
-	border: solid 1px #207a7a;
-}
-
-div#fieldset {
+div.fieldset {
 	text-align: center;
 }
 
+hr {
+	max-width: 80%;
+	position: relative;
+}
+
+.checkbox {
+	background-image: url(../images/checkbox-orange.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 19px;
+	margin-top: 5px;
+	margin-right: 10px;
+	float: left;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+.checked {
+	background-image: url(../images/checked-orange.png);
+	height: 19px;
+	width: 19px;
+	background-size: contain;
+	margin-right: 10px;
+	background-repeat: no-repeat;	
+	display: inline-block;
+}
+
+.items {
+	text-align: center;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.delete {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	float: right;
+	padding-right: 25px;
+}
+
+.container {
+	width: 450px;
+	margin: 0 auto;
+}
+
+.list {
+	padding-top: 30px;
+}
+
+.todoitem {
+	font-size: 24px;
+}
+
+/*removed the button
 button {
 	background-color: #289999;
 	color: #fff;
@@ -49,37 +110,12 @@ button {
 	border-radius: 5px;
 }
 
+button:focus {
+	outline: none;
+	border: solid 1px #207a7a;
+}
+
 button:hover {
 	width: 27px;
 	height: 27px;
-}
-
-hr {
-	max-width: 60%;
-	position: relative;
-}
-
-.checkbox {
-	/*background-image: url('../images/checkbox.png');*/
-	height: 17px;
-	width: 17px;
-}
-
-.checked {
-	/*background-image: url('../images/checked.png');*/
-	height: 17px;
-	width: 17px;
-}
-
-.items {
-	text-align: center;
-	margin-bottom: 20px;
-	display: block;
-}
-
-img.delete {
-	width: 20px;
-	height: 20px;
-	border-top: 20px;
-}
-
+} */
