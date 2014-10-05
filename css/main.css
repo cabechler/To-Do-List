@@ -25,7 +25,7 @@ input {
 	width: 300px;
 	height: 25px;
 	border-radius: 5px;
-	border: 2px solid #ff9842;
+	border: 2px solid #FFC042;
 	text-align: center;
 	margin-right: 0 auto;
 	font-size: 16px;
@@ -35,7 +35,7 @@ input {
 
 input:focus {
 	outline: none;
-	border: solid 2px #cc7934;
+	border: solid 2px #ff9842;
 }
 
 div.fieldset {
@@ -88,7 +88,7 @@ hr {
 }
 
 .container {
-	width: 450px;
+	width: 600px;
 	margin: 0 auto;
 	background-color: #FFFCF5;
 	border-radius: 6px;
