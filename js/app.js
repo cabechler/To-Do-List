@@ -23,6 +23,3 @@ $(document).ready(function() {
 		$(this).toggleClass('completed');
 		$(this).children('.checkbox').toggleClass('checked');
 	});
-	$('#list').sortable({ axis: "y" });
-});
-
