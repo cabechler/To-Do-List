@@ -105,24 +105,3 @@ hr {
 	font-size: 24px;
 }
 
-/*removed the button
-button {
-	background-color: #289999;
-	color: #fff;
-	border: 1px solid #fff;
-	width: 25px;
-	height: 25px;
-	font-size: 18px;
-	box-shadow: none;
-	border-radius: 5px;
-}
-
-button:focus {
-	outline: none;
-	border: solid 1px #207a7a;
-}
-
-button:hover {
-	width: 27px;
-	height: 27px;
-} */
