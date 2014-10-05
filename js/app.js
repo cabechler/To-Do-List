@@ -15,7 +15,7 @@ $(document).ready(function() {
 //delete
 	$('.list').on('click', '.delete', function (e) {
 		e.preventDefault(); 
-		$(this).parent().remove()
+		$(this).parent().slideUp()
 	});
 
 //check off

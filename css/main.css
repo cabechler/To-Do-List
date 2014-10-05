@@ -8,11 +8,12 @@ p {
 	font-size: 16px;
 	font-style: italic;
 	padding-bottom: 20px;
+	padding-right: 10px;
 	text-align: right;
 }
 
 #title {
-	max-width: 40%;
+	max-width: 80%;
 	height: auto;
 	margin: 0 auto;
 	display: block;
@@ -59,6 +60,7 @@ hr {
 
 .completed {
 	text-decoration: line-through;
+	color: #666666;
 }
 
 .checked {
@@ -88,10 +90,15 @@ hr {
 .container {
 	width: 450px;
 	margin: 0 auto;
+	background-color: #FFFCF5;
+	border-radius: 6px;
+	border: dashed 1px #FFC042;
 }
 
 .list {
 	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
 }
 
 .todoitem {
