@@ -7,7 +7,7 @@ $(document).ready(function() {
 		if(e.which == 13){
 			var toAdd = $('input[name=todolistitem]').val();
 			console.log(toAdd)
-			$('.list').append('<li class=\"items\"><div class=\"checkbox\"></div><span class=\"todoitem\">' + toAdd + '</span><img class=\"delete\" src=\"images/delete-button.png\"></li>');
+			$('.list').append('<li class=\"items\"><div class=\"checkbox\"></div><span class=\"todoitem\">' + toAdd + '</span><img class=\"delete\" src=\"images/Delete-button.png\"></li>');
 			$('input#textbox').val('');
 		}
 	});
